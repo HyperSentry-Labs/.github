@@ -1,0 +1,48 @@
+name: Feature Request
+description: Suggest an idea or enhancement for a HyperSentry Labs project.
+title: "[Feature]: "
+labels:
+  - enhancement
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement. Please describe the
+        problem you're trying to solve, not just the solution.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve?
+      placeholder: I'm always frustrated when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the solution you'd like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternative solutions or workarounds you've considered.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: willing
+    attributes:
+      label: Are you willing to submit a pull request for this feature?
+      options:
+        - "Yes"
+        - "No"
+        - "Maybe, with guidance"
+    validations:
+      required: true

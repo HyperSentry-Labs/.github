@@ -1,0 +1,25 @@
+name: Security Report (do not use for vulnerabilities)
+description: This form is informational only. See SECURITY.md for private disclosure.
+title: "[Security]: "
+labels:
+  - security
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not report vulnerabilities through public GitHub issues.**
+
+        Please follow the private disclosure process described in
+        [SECURITY.md](https://github.com/hypersentry-labs/.github/blob/main/SECURITY.md).
+
+        This form exists only to redirect reporters; submissions here
+        that describe an active vulnerability will be redacted and
+        the reporter will be contacted privately.
+
+  - type: checkboxes
+    id: acknowledge
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand this is not the correct channel for reporting a vulnerability and I have read SECURITY.md.
+          required: true

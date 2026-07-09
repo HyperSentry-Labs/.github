@@ -1,0 +1,19 @@
+title: "[Show and tell]: "
+labels:
+  - show-and-tell
+body:
+  - type: markdown
+    attributes:
+      value: Built something with a HyperSentry Labs project? Share it here.
+  - type: textarea
+    id: project
+    attributes:
+      label: What did you build?
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link (repository, demo, or write-up)
+    validations:
+      required: false

@@ -1,0 +1,20 @@
+# CODEOWNERS
+#
+# This file defines who is automatically requested for review when a
+# pull request touches a given path. Order matters: the last matching
+# pattern takes precedence.
+#
+# As HyperSentry Labs grows, add team handles (e.g. @hypersentry-labs/core)
+# instead of individual usernames to distribute review load.
+
+# Default owner for everything in the repository
+*                       @power0matin
+
+# Organizational health files require owner review
+/.github/               @power0matin
+/CODE_OF_CONDUCT.md     @power0matin
+/GOVERNANCE.md          @power0matin
+/SECURITY.md            @power0matin
+
+# Organization profile
+/profile/               @power0matin

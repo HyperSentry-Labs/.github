@@ -1,0 +1,19 @@
+title: "[Idea]: "
+labels:
+  - idea
+body:
+  - type: markdown
+    attributes:
+      value: Share an idea for a new project, feature, or improvement. Feature requests tied to a specific repository should go through that repository's issue tracker instead.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Describe your idea
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this valuable?
+    validations:
+      required: false

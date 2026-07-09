@@ -1,0 +1,21 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "HyperSentry",
+    "dependabot",
+    "yamllint",
+    "lychee",
+    "cspell",
+    "codeowners",
+    "opencollective",
+    "kofi",
+    "FiveM",
+    "OSPO",
+    "monorepo",
+    "changelog",
+    "changelogs",
+    "issuehunt"
+  ],
+  "ignorePaths": ["node_modules/**", "*.lock", "*.svg"]
+}

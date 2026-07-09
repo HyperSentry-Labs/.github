@@ -1,0 +1,14 @@
+title: "[General]: "
+labels:
+  - general
+body:
+  - type: markdown
+    attributes:
+      value: General discussion about HyperSentry Labs projects, practices, or plans.
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What would you like to discuss?
+    validations:
+      required: true

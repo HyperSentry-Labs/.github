@@ -1,0 +1,36 @@
+name: Documentation
+description: Report missing, unclear, or incorrect documentation.
+title: "[Docs]: "
+labels:
+  - documentation
+  - triage
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Documentation location
+      description: Link to the page, file, or section in question.
+      placeholder: https://github.com/hypersentry-labs/<repo>/blob/main/README.md
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of issue
+      options:
+        - Missing documentation
+        - Incorrect information
+        - Unclear explanation
+        - Broken link
+        - Outdated example
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe what's wrong or missing, and suggest a fix if you have one.
+    validations:
+      required: true

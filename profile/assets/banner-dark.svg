@@ -1,0 +1,47 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#0F2A28"/>
+    </linearGradient>
+    <linearGradient id="lineGradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2DD4BF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bgGradDark)"/>
+
+  <g opacity="0.25" stroke="#5EEAD4" stroke-width="1">
+    <line x1="0" y1="60" x2="1280" y2="60"/>
+    <line x1="0" y1="140" x2="1280" y2="140"/>
+    <line x1="0" y1="220" x2="1280" y2="220"/>
+    <line x1="0" y1="300" x2="1280" y2="300"/>
+  </g>
+
+  <rect x="0" y="150" width="1280" height="2" fill="url(#lineGradDark)"/>
+
+  <g transform="translate(90, 100)">
+    <rect x="0" y="0" width="64" height="64" rx="16" fill="#0F172A" stroke="#2DD4BF" stroke-width="1.5"/>
+    <path d="M32 12 L50 22 V38 C50 50 41 58 32 62 C23 58 14 50 14 38 V22 Z"
+          fill="none" stroke="#5EEAD4" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="32" cy="36" r="8" fill="none" stroke="#5EEAD4" stroke-width="2.5"/>
+    <path d="M32 30 V36 L36.5 39.5" stroke="#5EEAD4" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <text x="180" y="128" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#F8FAFC">
+    HyperSentry Labs
+  </text>
+  <text x="182" y="164" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">
+    Engineering-first open source. Tools developers rely on.
+  </text>
+
+  <g transform="translate(182, 200)" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#5EEAD4">
+    <text x="0" y="0">Python</text>
+    <text x="90" y="0">Automation</text>
+    <text x="210" y="0">Infrastructure</text>
+    <text x="350" y="0">CLI Tools</text>
+    <text x="450" y="0">SDKs</text>
+  </g>
+</svg>

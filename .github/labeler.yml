@@ -1,0 +1,29 @@
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+          - "docs/**"
+
+github-actions:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/**"
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "requirements*.txt"
+          - "package.json"
+          - "package-lock.json"
+          - "pyproject.toml"
+
+python:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.py"
+
+javascript:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.js"
+          - "**/*.ts"

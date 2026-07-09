@@ -1,0 +1,28 @@
+name: Question
+description: Ask a question about usage or behavior (Discussions preferred).
+title: "[Question]: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For general questions, please consider using
+        [GitHub Discussions](https://github.com/orgs/hypersentry-labs/discussions)
+        instead, where the wider community can help.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Version, environment, or configuration relevant to your question.
+    validations:
+      required: false
