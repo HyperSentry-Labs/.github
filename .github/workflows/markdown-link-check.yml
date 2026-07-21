@@ -22,7 +22,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
-            --config .lycheeignore
+            --exclude-file .lycheeignore
             --no-progress
             "**/*.md"
           fail: true
