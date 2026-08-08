@@ -20,10 +20,10 @@ maintain a draft release that aggregates merged pull requests, grouped by
 label, since the last published release. The version bump is inferred from
 pull request labels:
 
-| Label            | Resolves to |
+| Label | Resolves to |
 | ----------------- | ----------- |
-| `breaking-change` | major       |
-| `enhancement`      | minor       |
+| `breaking-change` | major |
+| `enhancement` | minor |
 | `bug`, `documentation`, `dependencies` | patch |
 
 ## Cutting a release

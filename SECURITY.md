@@ -39,12 +39,12 @@ When reporting, please include:
 
 ## Response Timeline
 
-| Stage                        | Target Timeframe        |
+| Stage | Target Timeframe |
 | ----------------------------- | ------------------------ |
-| Initial acknowledgment        | Within 3 business days   |
-| Triage and severity assessment | Within 7 business days  |
-| Fix development               | Depends on severity and complexity |
-| Coordinated disclosure        | Agreed upon with reporter |
+| Initial acknowledgment | Within 3 business days |
+| Triage and severity assessment | Within 7 business days |
+| Fix development | Depends on severity and complexity |
+| Coordinated disclosure | Agreed upon with reporter |
 
 Timelines are best-effort targets, not guarantees, since this organization
 is maintained on a volunteer basis.
