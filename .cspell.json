@@ -15,7 +15,13 @@
     "monorepo",
     "changelog",
     "changelogs",
-    "issuehunt"
+    "docstrings",
+    "fxmanifest",
+    "issuehunt",
+    "loadingscreen",
+    "miscategorized",
+    "Shahabadi",
+    "Triaging"
   ],
   "ignorePaths": ["node_modules/**", "*.lock", "*.svg"]
 }

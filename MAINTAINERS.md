@@ -5,9 +5,9 @@ organization-wide repositories they are responsible for. Individual
 project repositories may list additional, project-specific maintainers in
 their own `CODEOWNERS` file.
 
-| Name         | GitHub                                          | Areas                          |
-| ------------ | ------------------------------------------------ | ------------------------------- |
-| Matin        | [@power0matin](https://github.com/power0matin)   | Organization-wide, all projects |
+| Name | GitHub | Areas |
+| --- | --- | --- |
+| Matin Shahabadi | [@power0matin](https://github.com/power0matin) | Organization-wide, all projects |
 
 ## Becoming a maintainer
 

@@ -8,144 +8,105 @@
 
 <br>
 
-[![Website](https://img.shields.io/badge/site-hypersentrylabs.dev-0F766E?style=flat-square)](https://github.com/hypersentry-labs)
-[![License](https://img.shields.io/badge/license-MIT-2DD4BF?style=flat-square)](https://github.com/hypersentry-labs/.github/blob/main/LICENSE)
-[![Discussions](https://img.shields.io/badge/discussions-join-134E4A?style=flat-square)](https://github.com/orgs/hypersentry-labs/discussions)
-[![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-enforced-0F172A?style=flat-square)](https://github.com/hypersentry-labs/.github/blob/main/CODE_OF_CONDUCT.md)
+[![GitHub](https://img.shields.io/badge/GitHub-HyperSentry--Labs-0F172A?style=flat-square&logo=github&logoColor=F97316)](https://github.com/HyperSentry-Labs)
+[![License](https://img.shields.io/badge/default%20license-MIT-F97316?style=flat-square)](https://github.com/HyperSentry-Labs/.github/blob/main/LICENSE)
+[![Discussions](https://img.shields.io/badge/discussions-join-7C2D12?style=flat-square)](https://github.com/orgs/HyperSentry-Labs/discussions)
 
 </div>
-
-<br>
 
 ## About
 
-HyperSentry Labs is an engineering-first open source organization. We build
-backend systems, developer tools, automation, and infrastructure that are
-meant to be run in production, not just demoed.
+HyperSentry Labs is an independent engineering organization founded and
+maintained by
+[Matin Shahabadi (@power0matin)](https://github.com/power0matin).
 
-Our work spans Python libraries, CLI applications, SDKs, APIs, DevOps
-tooling, AI-adjacent utilities, and FiveM development. Every project here
-is built with the same underlying priorities: simplicity, reliability, and
-long-term maintainability over short-term novelty.
+We build practical developer software with an emphasis on reliability,
+maintainability, and a small operational footprint. Our current public work is
+focused on FiveM tooling; the broader direction includes backend utilities,
+automation, CLI applications, and infrastructure software as those projects
+become ready to maintain properly.
 
-## Engineering Philosophy
+We prefer a small portfolio of finished, documented projects over a large
+collection of demos.
 
-- **Simple over clever.** Code should be easy to read six months from now,
-  including by someone who isn't its original author.
-- **Boring in the right places.** Infrastructure and tooling should be
-  predictable. Innovation belongs in the problem being solved, not in
-  unnecessary abstraction.
-- **Documentation is part of the deliverable.** A project without clear
-  docs is an unfinished project.
-- **Backward compatibility is a feature.** Breaking changes are
-  deliberate, versioned, and documented — never accidental.
-- **Security and performance are considered from the start**, not
-  patched in after the fact.
+## Current projects
 
-## Core Values
+| Project | Type | Status | Purpose |
+| --- | --- | --- | --- |
+| [hs-loadingscreen](https://github.com/HyperSentry-Labs/hs-loadingscreen) | Open source | Active | Lightweight standalone FiveM loading screen |
 
-<table>
-<tr>
-<td width="33%" valign="top">
+The organization-level [roadmap](https://github.com/HyperSentry-Labs/.github/blob/main/ROADMAP.md)
+tracks what we intend to build next. A roadmap is direction, not a promise of
+dates or unreleased features.
 
-**Reliability**
+## Engineering principles
 
-Software that behaves the same way in production as it did in
-development, with clear failure modes when something does go wrong.
+- **Simple over clever.** Code should remain understandable months after it
+  ships.
+- **Production behavior matters.** Failure modes, compatibility, and
+  operational impact are part of the design.
+- **Documentation is part of the product.** A project is not finished when
+  only its author knows how to use it.
+- **Breaking changes are deliberate.** They are versioned and documented.
+- **Security and performance start at design time.** They are not release-day
+  patches.
 
-</td>
-<td width="33%" valign="top">
+## Open source and commercial work
 
-**Maintainability**
+HyperSentry Labs supports both open-source and commercial software.
 
-Code, configuration, and documentation structured so that future
-changes are safe and predictable to make.
+Public repositories keep the license stated in that repository. We do not
+retroactively remove rights already granted by an open-source release.
+Commercial products, premium editions, hosted services, or paid support may
+use separate terms and are identified clearly before purchase.
 
-</td>
-<td width="33%" valign="top">
+That separation lets free tools stay genuinely useful while funding continued
+development through products that provide additional value.
 
-**Developer Experience**
+## Focus areas
 
-Clear APIs, useful error messages, and documentation that respects the
-reader's time.
+| Area | What we care about |
+| --- | --- |
+| FiveM tooling | Server utilities, administration workflows, diagnostics, and UI resources |
+| Backend & APIs | Clear contracts, predictable behavior, and observability |
+| CLI applications | Fast tools designed for automation and daily engineering work |
+| Automation | Removing repetitive operational work with auditable workflows |
+| Infrastructure | Deployment and server-management tools with conservative defaults |
 
-</td>
-</tr>
-</table>
+## Repository standards
 
-## What We Build
+Repositories inherit shared community and automation defaults from
+[HyperSentry-Labs/.github](https://github.com/HyperSentry-Labs/.github) unless
+they document a project-specific override. Those defaults include:
 
-| Category            | Description                                                        |
-| -------------------- | -------------------------------------------------------------------- |
-| Backend & APIs        | Services and APIs designed around clear contracts and observability |
-| Infrastructure & DevOps | Tooling for deployment, automation, and server management         |
-| CLI Applications      | Command-line tools built for scripting and daily developer use     |
-| SDKs & Libraries      | Reusable, well-documented building blocks for other projects        |
-| Automation            | Bots and scripts that remove repetitive operational work            |
-| FiveM Development     | Game-server modules and tooling for FiveM deployments               |
-
-## Technologies
-
-<div align="left">
-
-![Python](https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=2DD4BF)
-![Bash](https://img.shields.io/badge/Bash-0F172A?style=flat-square&logo=gnubash&logoColor=2DD4BF)
-![Docker](https://img.shields.io/badge/Docker-0F172A?style=flat-square&logo=docker&logoColor=2DD4BF)
-![Linux](https://img.shields.io/badge/Linux-0F172A?style=flat-square&logo=linux&logoColor=2DD4BF)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0F172A?style=flat-square&logo=githubactions&logoColor=2DD4BF)
-![SQLite](https://img.shields.io/badge/SQLite-0F172A?style=flat-square&logo=sqlite&logoColor=2DD4BF)
-
-</div>
-
-## Repository Standards
-
-Every repository in this organization inherits the following from this
-`.github` repository unless it defines its own override:
-
-- A Code of Conduct, Contributing guide, and Security policy
-- Issue forms for bugs, features, documentation, questions, and security
-- Discussion templates for General, Ideas, Q&A, and Show & Tell
-- A pull request template with a review and security checklist
-- Shared CI workflows for linting, link checking, spell checking, and
-  dependency management
-- MIT licensing, unless a project explicitly states otherwise
-
-See the [`.github`](https://github.com/hypersentry-labs/.github) repository
-for the source of these defaults.
+- Code of Conduct, contributing, and security guidance
+- Issue forms and pull request templates
+- Shared CI and maintenance workflows
+- Dependency management
+- MIT licensing by default for open-source projects
 
 ## Contributing
 
-Contributions are welcome across all projects. Start with
-[CONTRIBUTING.md](https://github.com/hypersentry-labs/.github/blob/main/CONTRIBUTING.md)
-for the shared workflow, then check the specific repository you're
-interested in for any project-specific notes.
+Contributions are welcome where a repository is open for them. Start with the
+organization [CONTRIBUTING.md](https://github.com/HyperSentry-Labs/.github/blob/main/CONTRIBUTING.md)
+and then read any project-specific guidance.
 
-If you're looking for a place to start, look for issues labeled
-`good-first-issue` or `help-wanted` in individual repositories.
+For bugs or feature requests, use the relevant project's issue tracker. For
+cross-project ideas and questions, use
+[Discussions](https://github.com/orgs/HyperSentry-Labs/discussions).
 
-## Open Source Philosophy
+## Maintainer
 
-We publish projects we use ourselves and intend to maintain. Code is
-released under permissive licensing (MIT by default) so it can be used,
-modified, and redistributed with minimal friction. We'd rather maintain a
-smaller number of projects well than a large number poorly.
+HyperSentry Labs is founded and maintained by
+[Matin Shahabadi (@power0matin)](https://github.com/power0matin).
 
-## Community
-
-- **Discussions:** [github.com/orgs/hypersentry-labs/discussions](https://github.com/orgs/hypersentry-labs/discussions)
-- **Issues:** opened on the relevant project repository
-- **Security reports:** see [SECURITY.md](https://github.com/hypersentry-labs/.github/blob/main/SECURITY.md)
-
-## Contact
-
-For anything not covered by Issues or Discussions, reach out through the
-organization's [`.github`](https://github.com/hypersentry-labs/.github)
-repository.
+Security reports should follow the shared
+[Security Policy](https://github.com/HyperSentry-Labs/.github/blob/main/SECURITY.md).
 
 <br>
 
 <div align="center">
 
-<sub>© 2026 HyperSentry Labs · Released under the <a href="https://github.com/hypersentry-labs/.github/blob/main/LICENSE">MIT License</a></sub>
+<sub>© 2026 HyperSentry Labs · Open-source repositories are licensed individually.</sub>
 
 </div>

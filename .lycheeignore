@@ -1,5 +1,5 @@
-localhost
-127.0.0.1
-file://
-https://github.com/hypersentry-labs/*/issues/new
-https://github.com/hypersentry-labs/*/discussions/new
+^https?://localhost(?::[0-9]+)?(?:/.*)?$
+^https?://127\.0\.0\.1(?::[0-9]+)?(?:/.*)?$
+^file://
+(?i)^https://github\.com/hypersentry-labs/[^/]+/issues/new(?:[/?#].*)?$
+(?i)^https://github\.com/hypersentry-labs/[^/]+/discussions/new(?:[/?#].*)?$

@@ -11,6 +11,14 @@ for its own conventions.
 
 ## [Unreleased]
 
+### Changed
+
+- Repositioned the organization profile around its current public portfolio
+  and identified Matin Shahabadi (`@power0matin`) as founder and maintainer
+- Added the staged open-source/commercial product roadmap
+- Removed unverified external funding entries and the placeholder website badge
+- Updated spelling and Markdown lint configuration for the current toolchain
+
 ### Added
 
 - Initial organization profile README
